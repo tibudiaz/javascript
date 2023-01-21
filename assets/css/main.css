@@ -1,0 +1,73 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    color:chocolate;
+
+    text-shadow: 5px 5px 10px rgb(143, 136, 136);
+}
+.card{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    position: absolute;
+    margin-left: 15%;
+    margin-bottom: 40px;
+}
+.card p{
+    background-color:blanchedalmond;
+    font-size: large;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(131, 120, 120);
+}
+.list{
+    position: relative;
+    background-color: bisque;
+    width: 10%;
+    color: red;
+    margin-top: 6%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(116, 112, 112);
+}
+
+.boton{
+    border: 3px solid red;
+    border-radius: 15px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(161, 155, 155);
+}
+.boton:hover{
+    background-color: red;
+    color: aliceblue;
+    width: 70%;
+}
+.financiacion{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px rgb(114, 106, 106);
+}
+.pago{
+    background-color: coral;
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    border-radius:0px 0px 15px 15px;
+}

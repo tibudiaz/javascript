@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>agencia de auto</title>
+</head>
+<body>
+
+
+    <div class="card">
+    <h1>FINANCIACION DE VEHICULOS</h1>
+        <p>En este portal podras buscar el precio de nuestros vehiculos. <br> Tambien podras calcular la financiacion de los mismos con una entrega de dinero.</p>
+        <form>
+            <input class="boton" type="submit" id="miBoton" value="Buscar Precios" onclick="miFuncion()">
+        </form>
+    </div>
+    <div class="list">
+        <p>Vehiculos disponibles para buscar: <br>
+            Gol trend<br>
+            Fiat Cronos<br>
+            Chevrolet Cruze<br>
+            Peugeot 308<br>
+            Sandero Rs<br>
+            up
+        </p>
+    </div>
+    <section id="Financiacion">
+        <form class="financiacion">
+            Monto del préstamo: <br>
+            <input type="text" id="monto"><br>
+            Número de años: <br>
+            <input type="text" id="anios">
+            <br>
+            <input class="boton" type="button" value="Calcular" onclick="calculate()">
+            <br>
+            <div class="pago">
+            Pago mensual: <output id="pagoMes"></output>
+            </div>
+        </form>
+    </section>
+
+
+
+
+
+
+    <script src="assets/js/trabajo2.js"></script>
+
+
+</body>
+</html>
