@@ -80,3 +80,27 @@ function calculate() {
     console.log(`el monto de las cuotas por mes es de: ${pagoMes1}`)
 
 }
+
+
+
+//array datos de usuarios
+let datosCliente = [];
+
+function datos(){
+    while (true) {
+        let nombre = prompt("Ingrese su nombre:");
+        let apellido = prompt("Ingrese su apellido:");
+        let dni = prompt("Ingrese su DNI:");
+        let edad = prompt("Ingrese su edad:");
+        let celular = prompt("Ingrese su numero de celular:");
+        let email = prompt("Ingrese su Email:");
+        
+        const info = [`Nombre: ${nombre}, Apellido: ${apellido}, Dni: ${dni}, Edad: ${edad}, Telefono: ${celular}, Correo: ${email}`];
+        datosCliente.push(info);
+        
+        if (!alert("Muchas Gracias en la brevedad lo contactaremos")) {
+        break;
+        }
+    }
+    console.log(datosCliente)
+}

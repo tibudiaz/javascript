@@ -14,6 +14,7 @@ h1{
     position: absolute;
     margin-left: 15%;
     margin-bottom: 40px;
+    box-shadow: 5px 5px 10px black;
 }
 .card p{
     background-color:blanchedalmond;
@@ -58,7 +59,7 @@ h1{
     width: 70%;
     position: absolute;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 3%;
     box-shadow: 5px 5px 10px black;
     text-shadow: 5px 5px 10px rgb(114, 106, 106);
 }
@@ -69,5 +70,5 @@ h1{
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
-    border-radius:0px 0px 15px 15px;
+
 }
