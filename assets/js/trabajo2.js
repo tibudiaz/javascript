@@ -16,12 +16,12 @@ let option = prompt("Elige una opción de búsqueda: 1. Marca 2. Modelo 3. Año"
 if (option === "1") {
         let criterio = prompt("Ingresa la marca");
         let result = autos.filter(function(objeto) {
-            return objeto.marca.toLowerCase() == criterio;
+            return objeto.marca.toLowerCase() == criterio.toLowerCase();
         });
         if (result.length > 0) {
             let resultado = "";
             result.forEach(function(objeto) {
-                resultado += "Nombre: " + objeto.marca + "\nCategoria: " + objeto.modelo + "\nAño: "+ objeto.anio + "\nPrecio: "+ objeto.precio + "\n\n";
+                resultado += "Marca: " + objeto.marca + "\nModelo: " + objeto.modelo + "\nAño: "+ objeto.anio + "\nPrecio: "+ objeto.precio + "\n\n";
             });
             alert(resultado);
         } else {
@@ -30,12 +30,12 @@ if (option === "1") {
     } else if (option === "2") {
         let criterio = prompt("Ingresa el modelo");
         let result = autos.filter(function(objeto) {
-            return objeto.modelo.toLowerCase() == criterio;
+            return objeto.modelo.toLowerCase() == criterio.toLowerCase();
         });
         if (result.length > 0) {
             let resultado = "";
             result.forEach(function(objeto) {
-                resultado += "Nombre: " + objeto.marca + "\nCategoria: " + objeto.modelo + "\nAño: "+ objeto.anio + "\nPrecio: "+ objeto.precio + "\n\n";
+                resultado += "Marca: " + objeto.marca + "\nModelo: " + objeto.modelo + "\nAño: "+ objeto.anio + "\nPrecio: "+ objeto.precio + "\n\n";
             });
             alert(resultado);
         } else {
@@ -49,7 +49,7 @@ if (option === "1") {
         if (result.length > 0) {
             let resultado = "";
             result.forEach(function(objeto) {
-                resultado += "Nombre: " + objeto.marca + "\nCategoria: " + objeto.modelo + "\nAño: "+ objeto.anio + "\nPrecio: "+ objeto.precio + "\n\n";
+                resultado += "Marca: " + objeto.marca + "\nModelo: " + objeto.modelo + "\nAño: "+ objeto.anio + "\nPrecio: "+ objeto.precio + "\n\n";
             });
             alert(resultado);
         } else {
